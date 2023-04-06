@@ -1,0 +1,31 @@
+body {
+            background: linear-gradient(135deg, #e8f1ec, #7bc49f, #4bb397);
+}
+
+        form {
+            margin: 30px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .container .title::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            width: 240px;
+            border-radius: 5px;
+            background: linear-gradient(135deg, #084132, #3ff01b, #a0b6a0);
+        }
